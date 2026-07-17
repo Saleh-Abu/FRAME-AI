@@ -1,0 +1,15 @@
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Python
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/**/*.pyc
+
+# General
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
