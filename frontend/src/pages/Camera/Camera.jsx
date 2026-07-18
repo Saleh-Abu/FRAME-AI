@@ -267,7 +267,10 @@ function Camera() {
 
           {/* Face Scanner */}
 
-          <FaceGuide />
+         <FaceGuide
+  status={cameraStatus}
+  countdown={countdown}
+/>
 
           {/* Countdown */}
 
