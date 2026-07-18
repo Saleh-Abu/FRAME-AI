@@ -1,8 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
-function CameraPreview({ onStatusUpdate }) {
-  const videoRef = useRef(null);
-
+function CameraPreview({
+    videoRef,
+    onStatusUpdate,
+}) {
   useEffect(() => {
     let stream;
     let interval;

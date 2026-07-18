@@ -23,6 +23,7 @@ const stages = [
 
 function Analysis() {
   const location = useLocation();
+  
 
   const imageUrl = location.state?.imageUrl;
   const analysisResult = location.state?.analysisResult;
